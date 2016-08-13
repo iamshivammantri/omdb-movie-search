@@ -1,0 +1,54 @@
+/* Header */
+
+.header{
+	text-align:center;
+}
+
+#head{
+	font-size: 70px;
+}
+
+/* End of Header */
+
+/* input field */
+
+.inputmovie{
+	text-align: center;
+	margin-top: 150px;	
+}
+
+#movie{
+	width: 600px;
+	height: 40px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+input[type="text"]{
+	font-size: 24px;
+}
+
+/* End of Input field */
+
+/* Search Button */
+
+.searchbutton{
+	text-align: center;
+}
+
+#button1{
+	padding-left: 20px;
+	padding-right: 20px;
+	font-size: 25px;
+}
+/* End of Search Button */
+
+.body{
+	margin-left: 200px;
+	margin-right: 100px;
+}
+
+.data{
+	width: 600px;
+	float: right;
+}

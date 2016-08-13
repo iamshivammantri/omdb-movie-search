@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>OMDb Movies</title>
+		<link rel="stylesheet" type="text/css" href="index.css" />
+	</head>
+	<script src="request.js">
+		var str = document.getElementById("movie").value;	
+	</script>
+	<body>
+		<div class="header">		
+			<h1 id="head">OMDB Movie Search</h1>
+		</div>
+		<div class="inputmovie">
+			<input type="text" id="movie" autofocus />
+		</div>	
+		</br>	
+		<div class="searchbutton">
+			<button onclick="myfunction()" id="button1">Search</button>
+		</div>
+		</br></br>
+		<div class="body">
+			<!-- <div class="posterdiv">
+				<img id="poster" />
+			</div> -->
+			<div class="data">
+				<p id="title"></p>
+				<p id="year"></p>
+				<p id="actors"></p>
+				<p id="plot"></p>
+				<p id="imdbRating"></p>
+			</div>
+		</div>	
+	</body>
+	<script src="request.js">
+			
+	</script>
+</html>
