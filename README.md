@@ -1,2 +1,2 @@
 # omdb-movie-search
-Search movie from omdb database
+Search for movie and get actors, imdb rating, short plot and year of the movie.
